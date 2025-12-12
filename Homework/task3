@@ -1,0 +1,3 @@
+a = input()
+first, sec = a.split('.')
+print(sec + '.' + first)
