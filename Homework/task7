@@ -1,5 +1,5 @@
 first = float(input("First number: "))
-op = input("Operation (+, -, *, /): ").strip()
+op = input("Operation (+, -, *, /): ")
 second = float(input("Second number: "))
 
 if op == "+":
