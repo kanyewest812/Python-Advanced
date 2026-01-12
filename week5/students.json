@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Kanye West",
+        "age": 20,
+        "grades": [85, 92, 78, 88]
+    },
+    {
+        "name": "Amelie Sarabi",
+        "age": 21,
+        "grades": [72, 85, 90, 67]
+    }
+]
