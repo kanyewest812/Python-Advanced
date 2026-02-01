@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+<h1>LIST WORKS</h1>
+
+<p>Records count: {{ records|length }}</p>
+
+{% for r in records %}
+  <p>{{ r }}</p>
+{% empty %}
+  <p>NO DATA</p>
+{% endfor %}
+
+{% endblock %}
